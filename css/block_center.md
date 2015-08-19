@@ -16,7 +16,7 @@ layout: default
 
 この `div.center-children` をセンタリングするには、以下の2つをすればよい。
 
-* `div.parent` 部分の幅を決めてやる
+* `div.parent` 部分の幅を決めてあげる
 * `div.center-children` 部分の左右の `margin` を `auto` にする
 
 例
@@ -40,4 +40,4 @@ layout: default
 ブロック要素はセンタリングされない。
 また、いずれにせよブロック要素のサイズが決まっていないとセンタリングされない。
 
-* 参考: http://www.acky.info/tips/css/00001.html
+* 参考: (http://www.acky.info/tips/css/00001.html)
