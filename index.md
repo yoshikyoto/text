@@ -8,7 +8,7 @@ layout: default
 
 ### Git/GitHub
 
-* Markdownで書いたページをレンダリングして公開するまで
+* Markdownで書いたページをレンダリングしてGitHub Pagesで公開する
 
 ### Scala
 
