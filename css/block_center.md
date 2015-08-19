@@ -8,6 +8,6 @@ layout: default
 
 ```
 div.center {
-    margin: 0px auto
+    margin: 0px auto;
 }
 ```
