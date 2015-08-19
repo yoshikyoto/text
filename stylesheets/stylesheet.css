@@ -57,22 +57,23 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-header h1 a,
-header h2 a,
-header h3 a,
-header h4 a,
-header h5 a,
-header h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: #b5e853;
 }
 
+/*
 header h1:before {
   content: "";
   font-size: 24px;
-}
+}*/
 
 header h2 {
-  margin: 0 0 0 -20px;
+  margin: 0 0 0 -15px;
   font-size: 18px;
   font-weight: 300;
   color: #666;
