@@ -33,8 +33,8 @@ layout: default
 
 ## text-align, vertical-align について
 
-* text-align
-* vertical-align
+* `text-align`
+* `vertical-align`
 
 はインライン要素を含むブロック要素に指定することで、中に含まれるインライン要素がセンタリングされる。
 ブロック要素はセンタリングされない。
