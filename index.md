@@ -2,20 +2,27 @@
 layout: default
 ---
 
-# 上げていく（予定）のもの
-
-## [Emacs](emacs)
+### [Emacs](emacs)
 
 * [Emacsをソースからビルドしてインストールする](emacs/build.html)
 
-## Git/GitHub
+### Git/GitHub
 
-## Scala
+* Markdownで書いたページをレンダリングして公開するまで
 
-## PHP
+### Scala
 
-## [CSS](css)
+### PHP
+
+* CakePHP 使ってみる
+* FuelPHP 使ってみる
+* Larabel 使ってみる
+* Smarty
+* Slim Framework 使ってみる
+* phpunit
+
+### [CSS](css)
 
 * [ブロック要素をセンタリングする](css/block_center.html)
 
-## 競技プログラミング
+### 競技プログラミング
