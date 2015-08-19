@@ -1,5 +1,5 @@
 ---
-layouts: default
+layout: default
 ---
 
 # PHPでconstとstatic変数の呼び出し方の違いでハマった
