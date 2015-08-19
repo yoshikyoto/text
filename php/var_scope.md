@@ -8,18 +8,24 @@ layout: default
 
 if, forのブロック内で宣言した変数は、そのブロックを出ても有効
 
+
 ```
+
 if($flag) {
     $hoge = 'Hello';
 }
 
 echo $hoge; //コンパイルエラーにはならない
 // $flagがtrueならHelloだし、falseならnull
+
 ```
+
 
 ## グローバル変数と関数
 
+
 ```
+
 $a = 1;
 
 function fuga() {
@@ -27,11 +33,15 @@ function fuga() {
 }
 
 fuga(); // => null
+
 ```
+
 
 globalの値を参照したい場合は
 
+
 ```
+
 $a = 1;
 
 function fuga() {
@@ -40,6 +50,7 @@ function fuga() {
     
     echo $GLOBALS['a']; // => 1
 }
+
 ```
 
 
