@@ -1,6 +1,5 @@
 auto: true
 server: true
-pygments: true
 markdown: redcarpet 
 redcarpet: 
     extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", 
