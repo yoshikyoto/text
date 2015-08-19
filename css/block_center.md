@@ -40,4 +40,4 @@ layout: default
 ブロック要素はセンタリングされない。
 また、いずれにせよブロック要素のサイズが決まっていないとセンタリングされない。
 
-* 参考: (http://www.acky.info/tips/css/00001.html)
+* 参考: [インライン要素を左寄せ・中央寄せ・右寄せする方法 ](http://www.acky.info/tips/css/00001.html)
