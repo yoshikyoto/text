@@ -118,8 +118,8 @@ defaultという名前はなんでもいいです。
 </html>
 ```
 
-`\{\{ content }}` の部分に、MarkdownをHTMLに変換したものが入ります。
-`{{ page.title }}` の部分については後に説明します。
+`｛｛ content ｝｝` の部分に、MarkdownをHTMLに変換したものが入ります。（`｛`, `｝`は半角にしてください。）
+`｛｛ page.title ｝｝` の部分については後に説明します。
 
 
 ### Markdownファイル
@@ -139,7 +139,7 @@ title: トップページ
 ```
 
 `layout` で `default` を指定しているので、 `_layouts/default.html` というレイアウトを適用します。
-`title` の中身が `{{ page.title }}` の部分に入ります。
+`title` の中身が `page.title` の部分に入ります。
 
 
 ## 公開方法
