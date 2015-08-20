@@ -13,14 +13,7 @@ title: トップページ
 
 ### Scala
 
-### PHP
-
-* CakePHP 使ってみる
-* FuelPHP 使ってみる
-* Larabel 使ってみる
-* Smarty
-* Slim Framework 使ってみる
-* phpunit
+### [PHP](php)
 
 ### [CSS](css)
 
