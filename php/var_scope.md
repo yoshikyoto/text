@@ -8,7 +8,7 @@ layout: default
 
 if, forのブロック内で宣言した変数は、そのブロックを出ても有効
 
-```
+```php
 if($flag) {
     $hoge = 'Hello';
 }
@@ -20,7 +20,7 @@ echo $hoge; //コンパイルエラーにはならない
 
 ## グローバル変数と関数
 
-```
+```php
 $a = 1;
 
   function fuga() {
@@ -34,7 +34,7 @@ $a = 1;
 globalの値を参照したい場合は
 
 
-```
+```php
 $a = 1;
 
 function fuga() {
@@ -45,6 +45,7 @@ function fuga() {
 }
 ```
 
+## autoloadでの変数スコープでハマる
 
 ## 参考
 
