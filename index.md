@@ -7,9 +7,9 @@ title: トップページ
 
 * [Emacsをソースからビルドしてインストールする](emacs/build.html)
 
-### Git/GitHub
+### [Git/GitHub](git)
 
-* Markdownで書いたページをレンダリングしてGitHub Pagesで公開する
+* [Markdownで書かれたページをGitHub Pagesで公開する](git/gh_pages_md.html)
 
 ### Scala
 
