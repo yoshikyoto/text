@@ -45,6 +45,21 @@ function fuga() {
 }
 ```
 
+## クラス内のメソッド
+
+```php
+$a = 1;
+
+class Hoge {
+    function fuga() {
+        global $a;
+        echo $a
+    }
+}
+```
+
+これで `fuga()` を呼んでも `1` は出力されない！！
+
 ## autoloadでの変数スコープでハマる
 
 ## 参考
