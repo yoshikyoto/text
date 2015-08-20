@@ -1,5 +1,6 @@
 ---
 layout: default
+title: PHPではまりやすい変数のスコープ
 ---
 
 # PHPではまりやすい変数のスコープ
