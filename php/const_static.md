@@ -1,14 +1,15 @@
 ---
 layout: default
+title: PHPでconstとstaticの呼び出し方の違いでハマった
 ---
 
-# PHPでconstとstatic変数の呼び出し方の違いでハマった
+# PHPでconstとstaticの呼び出し方の違いでハマった
 
 ## const
 
 定義の時
 
-```
+```php
 class Constants {
     const CONST_NUM = 1;
 }
@@ -16,7 +17,7 @@ class Constants {
 
 呼ぶ時
 
-```
+```php
 echo Constants::CONST_NUM;
 ```
 
@@ -29,7 +30,7 @@ echo Constants::CONST_NUM;
 
 定義の時
 
-```
+```php
 class Sample {
     static $value = 5
 }
@@ -37,7 +38,7 @@ class Sample {
 
 呼び出しの時
 
-```
+```php
 scho Sample::$value;
 ```
 
