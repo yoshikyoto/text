@@ -109,16 +109,16 @@ defaultという名前はなんでもいいです。
 <html>
   <head>
     <meta charset='utf-8'>
-    <title>{{ page.title }} - @yoshiki_utakata</title>
+    <title>｛｛ page.title ｝｝ - @yoshiki_utakata</title>
   </head>
 
   <body>
-    {{ content }}
+    ｛｛ content ｝｝
   </body>
 </html>
 ```
 
-`{{ content }}` の部分に、MarkdownをHTMLに変換したものが入ります。
+`\{\{ content }}` の部分に、MarkdownをHTMLに変換したものが入ります。
 `{{ page.title }}` の部分については後に説明します。
 
 
