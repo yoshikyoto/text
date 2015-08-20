@@ -53,7 +53,7 @@ $a = 1;
 class Hoge {
     function fuga() {
         global $a;
-        echo $a
+        echo $a;
     }
 }
 ```
