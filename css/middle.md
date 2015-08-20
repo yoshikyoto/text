@@ -1,3 +1,8 @@
+---
+layout: default
+title: ブロック要素の高さをmiddleにする
+---
+
 # ブロック要素の高さをmiddleにする
 
 ## position: absolute 方式
