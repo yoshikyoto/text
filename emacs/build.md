@@ -21,7 +21,7 @@ Emacsをビルドするために必要な gcc, make などをインストール�
 
 ### Cent OS の場合
 
-```bash
+```
 sudo yum -y install gcc make ncurses-devel 
 ```
 
@@ -29,13 +29,13 @@ sudo yum -y install gcc make ncurses-devel
 
 ubuntuの場合、gcc, make, ncurses-dev が入っていることを確認してください
 
-```bash
+```
 $ sudo apt-get install gcc make ncurses-dev
 ```
 
 もしこれで、下の方に書いてあるビルドができない場合、裏ワザ的に以下のコマンドを使う方法があります。
 
-```bash
+```
 $ sudo apt-get build-dep emacs24
 ```
 
@@ -60,7 +60,7 @@ magitという、Emacs上で動くGitのクライアントが、Emacs 24.4 以�
 emacs 24.5 のURLは [http://ftp.jaist.ac.jp/pub/GNU/emacs/emacs-24.5.tar.gz]  なので、
 これをダウンロードして解凍してビルドします。
 
-```shell
+```
 $ wget http://ftp.jaist.ac.jp/pub/GNU/emacs/emacs-24.5.tar.gz 
 $ tar xvf emacs-24.5.tar.gz 
 $ cd emacs-24.5 
@@ -88,7 +88,7 @@ GNU Emacs 24.5.1
 自分のダウンロードしたEmacsのバージョンと同じ場合は問題ありません。
 違う場合は以下の用にpathを変更してやります。
 
-```shell
+```
 $ emacs --version
 GNU Emacs 23.1
 ...

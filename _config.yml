@@ -1,5 +1,3 @@
-auto: true
-server: true
 highlighter: pygments
 markdown: redcarpet
 redcarpet:
