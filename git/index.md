@@ -1,3 +1,8 @@
+---
+layout: default
+title: Git/GitHub
+---
+
 # Git/Github
 
 ## Git
