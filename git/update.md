@@ -1,6 +1,6 @@
 ---
 layout: default
-title ソースから最新版のgitを入れる
+title: ソースから最新版のgitを入れる
 ---
 
 # yumで入れたgitのバージョンが低すぎるのでupdateする
