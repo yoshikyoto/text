@@ -29,7 +29,14 @@ $ git stash show
 ## checkoutして適切な方を選択
 
 ```
-$git checkout stash@{0} .gitignore
+$ git checkout stash@{0} .gitignore
 ```
 
 * stash show の結果は変わっていないが、手元のファイルは変更されている
+
+
+## stash listを消す
+
+```
+$ git stash drop stash@{0}
+```
