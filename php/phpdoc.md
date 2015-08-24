@@ -1,3 +1,8 @@
+---
+layout: default
+title: PHPDoc
+---
+
 # PHPDoc
 
 ## 公式サイト
