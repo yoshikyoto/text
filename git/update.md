@@ -1,3 +1,8 @@
+---
+layout: default
+title ソースから最新版のgitを入れる
+---
+
 # yumで入れたgitのバージョンが低すぎるのでupdateする
 
 `git stash -u` とかが動かないので、なんでかなと思ったら、gitのバージョンが古いからだった。
