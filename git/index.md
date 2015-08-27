@@ -16,3 +16,4 @@ title: Git/GitHub
 ## GitHub
 
 * [Markdownで書かれたページをGitHub Pagesで公開する](gh_pages_md.html)
+* [Advanced Searchチートシート](advanced_search.html)
